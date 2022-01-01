@@ -29,14 +29,14 @@ struct ContentView: View {
                         .foregroundColor(.red)
                         .font(.subheadline)
                 
-                }
+                }.frame(width: 275.0)
             
 
                 ForEach((0...1), id: \.self) { _ in
                     HStack {
-                        ForEach((1...16), id: \.self) {_ in
+                        ForEach((1...16), id: \.self) { _ in
                             Circle()
-                                .frame(width: 10, height: 10)
+                                .frame(width: 15.0, height: 15.0)
                                 .foregroundColor(Color(hue: 0.471, saturation: 1.0, brightness: 1.0, opacity: 0.453))
                                 .scaleEffect(scale)
                                 .animation(
