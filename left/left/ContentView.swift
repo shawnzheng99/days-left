@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var scale: CGFloat = 0.1
+    @State private var scale: CGFloat = 0.0
 
     var body: some View {
         ZStack {
@@ -18,14 +18,17 @@ struct ContentView: View {
                 HStack {
                 
                     Text(Date.now, format: .dateTime.year())
+                        .fontWeight(.semibold)
                         .foregroundColor(.white)
                         .font(.subheadline)
                     Spacer()
                     Text("\(numberOfDTY())/365")
+                        .fontWeight(.semibold)
                         .foregroundColor(.yellow)
                         .font(.subheadline)
                     Spacer()
                     Text(String(format: "%.2f", Double(numberOfDTY())/365.0 * 100) + "%")
+                        .fontWeight(.semibold)
                         .foregroundColor(.red)
                         .font(.subheadline)
                 
@@ -41,7 +44,7 @@ struct ContentView: View {
                                 .scaleEffect(scale)
                                 .animation(
                                     .easeInOut(duration: 1)
-                                        .repeatForever().delay(0.0), value: scale
+                                        .repeatForever().delay(0), value: scale
                                 )
                                 .onAppear {
                                     self.scale = 1
