@@ -7,26 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B8443B1277F929E005B4AA4 /* Days_LeftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8443B0277F929E005B4AA4 /* Days_LeftApp.swift */; };
-		0B8443B3277F929E005B4AA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8443B2277F929E005B4AA4 /* ContentView.swift */; };
-		0B8443B5277F929F005B4AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8443B4277F929F005B4AA4 /* Assets.xcassets */; };
-		0B8443B8277F929F005B4AA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8443B7277F929F005B4AA4 /* Preview Assets.xcassets */; };
-		0B8443BA277F929F005B4AA4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8443B9277F929F005B4AA4 /* Persistence.swift */; };
-		0B8443BD277F92A0005B4AA4 /* Days_Left.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B8443BB277F92A0005B4AA4 /* Days_Left.xcdatamodeld */; };
+		0BA2968A277F971300223048 /* leftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA29689277F971300223048 /* leftApp.swift */; };
+		0BA2968C277F971300223048 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA2968B277F971300223048 /* ContentView.swift */; };
+		0BA2968E277F971500223048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA2968D277F971500223048 /* Assets.xcassets */; };
+		0BA29691277F971500223048 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA29690277F971500223048 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B8443AD277F929E005B4AA4 /* Days Left.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Days Left.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B8443B0277F929E005B4AA4 /* Days_LeftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Days_LeftApp.swift; sourceTree = "<group>"; };
-		0B8443B2277F929E005B4AA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0B8443B4277F929F005B4AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0B8443B7277F929F005B4AA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0B8443B9277F929F005B4AA4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		0B8443BC277F92A0005B4AA4 /* Days_Left.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Days_Left.xcdatamodel; sourceTree = "<group>"; };
+		0BA29686277F971300223048 /* left.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = left.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA29689277F971300223048 /* leftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leftApp.swift; sourceTree = "<group>"; };
+		0BA2968B277F971300223048 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0BA2968D277F971500223048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BA29690277F971500223048 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BA29697277F973D00223048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B8443AA277F929E005B4AA4 /* Frameworks */ = {
+		0BA29683277F971300223048 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,39 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B8443A4277F929E005B4AA4 = {
+		0BA2967D277F971300223048 = {
 			isa = PBXGroup;
 			children = (
-				0B8443AF277F929E005B4AA4 /* Days Left */,
-				0B8443AE277F929E005B4AA4 /* Products */,
+				0BA29688277F971300223048 /* left */,
+				0BA29687277F971300223048 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0B8443AE277F929E005B4AA4 /* Products */ = {
+		0BA29687277F971300223048 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B8443AD277F929E005B4AA4 /* Days Left.app */,
+				0BA29686277F971300223048 /* left.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B8443AF277F929E005B4AA4 /* Days Left */ = {
+		0BA29688277F971300223048 /* left */ = {
 			isa = PBXGroup;
 			children = (
-				0B8443B0277F929E005B4AA4 /* Days_LeftApp.swift */,
-				0B8443B2277F929E005B4AA4 /* ContentView.swift */,
-				0B8443B4277F929F005B4AA4 /* Assets.xcassets */,
-				0B8443B9277F929F005B4AA4 /* Persistence.swift */,
-				0B8443BB277F92A0005B4AA4 /* Days_Left.xcdatamodeld */,
-				0B8443B6277F929F005B4AA4 /* Preview Content */,
+				0BA29697277F973D00223048 /* Info.plist */,
+				0BA29689277F971300223048 /* leftApp.swift */,
+				0BA2968B277F971300223048 /* ContentView.swift */,
+				0BA2968D277F971500223048 /* Assets.xcassets */,
+				0BA2968F277F971500223048 /* Preview Content */,
 			);
-			path = "Days Left";
+			path = left;
 			sourceTree = "<group>";
 		};
-		0B8443B6277F929F005B4AA4 /* Preview Content */ = {
+		0BA2968F277F971500223048 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0B8443B7277F929F005B4AA4 /* Preview Assets.xcassets */,
+				0BA29690277F971500223048 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -76,39 +72,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B8443AC277F929E005B4AA4 /* Days Left */ = {
+		0BA29685277F971300223048 /* left */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B8443C0277F92A0005B4AA4 /* Build configuration list for PBXNativeTarget "Days Left" */;
+			buildConfigurationList = 0BA29694277F971500223048 /* Build configuration list for PBXNativeTarget "left" */;
 			buildPhases = (
-				0B8443A9277F929E005B4AA4 /* Sources */,
-				0B8443AA277F929E005B4AA4 /* Frameworks */,
-				0B8443AB277F929E005B4AA4 /* Resources */,
+				0BA29682277F971300223048 /* Sources */,
+				0BA29683277F971300223048 /* Frameworks */,
+				0BA29684277F971300223048 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Days Left";
-			productName = "Days Left";
-			productReference = 0B8443AD277F929E005B4AA4 /* Days Left.app */;
+			name = left;
+			productName = left;
+			productReference = 0BA29686277F971300223048 /* left.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0B8443A5277F929E005B4AA4 /* Project object */ = {
+		0BA2967E277F971300223048 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					0B8443AC277F929E005B4AA4 = {
+					0BA29685277F971300223048 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 0B8443A8277F929E005B4AA4 /* Build configuration list for PBXProject "Days Left" */;
+			buildConfigurationList = 0BA29681277F971300223048 /* Build configuration list for PBXProject "left" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +112,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 0B8443A4277F929E005B4AA4;
-			productRefGroup = 0B8443AE277F929E005B4AA4 /* Products */;
+			mainGroup = 0BA2967D277F971300223048;
+			productRefGroup = 0BA29687277F971300223048 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B8443AC277F929E005B4AA4 /* Days Left */,
+				0BA29685277F971300223048 /* left */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0B8443AB277F929E005B4AA4 /* Resources */ = {
+		0BA29684277F971300223048 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B8443B8277F929F005B4AA4 /* Preview Assets.xcassets in Resources */,
-				0B8443B5277F929F005B4AA4 /* Assets.xcassets in Resources */,
+				0BA29691277F971500223048 /* Preview Assets.xcassets in Resources */,
+				0BA2968E277F971500223048 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B8443A9277F929E005B4AA4 /* Sources */ = {
+		0BA29682277F971300223048 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B8443BA277F929F005B4AA4 /* Persistence.swift in Sources */,
-				0B8443BD277F92A0005B4AA4 /* Days_Left.xcdatamodeld in Sources */,
-				0B8443B3277F929E005B4AA4 /* ContentView.swift in Sources */,
-				0B8443B1277F929E005B4AA4 /* Days_LeftApp.swift in Sources */,
+				0BA2968C277F971300223048 /* ContentView.swift in Sources */,
+				0BA2968A277F971300223048 /* leftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0B8443BE277F92A0005B4AA4 /* Debug */ = {
+		0BA29692277F971500223048 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		0B8443BF277F92A0005B4AA4 /* Release */ = {
+		0BA29693277F971500223048 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,29 +263,31 @@
 			};
 			name = Release;
 		};
-		0B8443C1277F92A0005B4AA4 /* Debug */ = {
+		0BA29695277F971500223048 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Days Left/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"left/Preview Content\"";
 				DEVELOPMENT_TEAM = 5T76B73M9Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = left/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengc.dev.Days-Left";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengc.dev.left;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,29 +295,31 @@
 			};
 			name = Debug;
 		};
-		0B8443C2277F92A0005B4AA4 /* Release */ = {
+		0BA29696277F971500223048 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Days Left/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"left/Preview Content\"";
 				DEVELOPMENT_TEAM = 5T76B73M9Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = left/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengc.dev.Days-Left";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengc.dev.left;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -332,38 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B8443A8277F929E005B4AA4 /* Build configuration list for PBXProject "Days Left" */ = {
+		0BA29681277F971300223048 /* Build configuration list for PBXProject "left" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B8443BE277F92A0005B4AA4 /* Debug */,
-				0B8443BF277F92A0005B4AA4 /* Release */,
+				0BA29692277F971500223048 /* Debug */,
+				0BA29693277F971500223048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B8443C0277F92A0005B4AA4 /* Build configuration list for PBXNativeTarget "Days Left" */ = {
+		0BA29694277F971500223048 /* Build configuration list for PBXNativeTarget "left" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B8443C1277F92A0005B4AA4 /* Debug */,
-				0B8443C2277F92A0005B4AA4 /* Release */,
+				0BA29695277F971500223048 /* Debug */,
+				0BA29696277F971500223048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0B8443BB277F92A0005B4AA4 /* Days_Left.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0B8443BC277F92A0005B4AA4 /* Days_Left.xcdatamodel */,
-			);
-			currentVersion = 0B8443BC277F92A0005B4AA4 /* Days_Left.xcdatamodel */;
-			path = Days_Left.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 0B8443A5277F929E005B4AA4 /* Project object */;
+	rootObject = 0BA2967E277F971300223048 /* Project object */;
 }
