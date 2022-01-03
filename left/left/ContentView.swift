@@ -8,28 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var scale: CGFloat = 0.0
-
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
             Spacer()
             VStack {
-                HeaderView()
-            
-                ForEach((0...1), id: \.self) { _ in
+                HeaderView(numberOfDaysPassed: calculateDaysPassedThisYear())
+                ForEach((0...1), id: \.self) { outterIdx in
                     HStack {
-                        ForEach((1...16), id: \.self) { _ in
-                            DotView()
+                        ForEach((0...16), id: \.self) { innerIdx in
+                            DotView(isBlinking: innerIdx == 16 && outterIdx == 1)
                         }
-                        
                     }
                 }.frame(width: 275.0)
-            
-                    
+                
             }.frame(width: 275.0)
             Spacer()
-            
         }
     }
 

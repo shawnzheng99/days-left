@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HeaderView: View {
+    var numberOfDaysPassed: Int = 360
     var body: some View {
         HStack {
             Text(Date.now, format: .dateTime.year())
@@ -15,12 +16,12 @@ struct HeaderView: View {
                 .foregroundColor(.white)
                 .font(.subheadline)
             Spacer()
-            Text("\(numberOfDTY())/365")
+            Text("\(numberOfDaysPassed)/365")
                 .fontWeight(.semibold)
                 .foregroundColor(.yellow)
                 .font(.subheadline)
             Spacer()
-            Text(String(format: "%.2f", Double(numberOfDTY())/365.0 * 100) + "%")
+            Text(String(format: "%.2f", Double(numberOfDaysPassed)/365.0 * 100) + "%")
                 .fontWeight(.semibold)
                 .foregroundColor(.red)
                 .font(.subheadline)
@@ -28,13 +29,10 @@ struct HeaderView: View {
         }.frame(width: 275.0)
     }
     
-    private func numberOfDTY() -> Int32 {
-        return 365
-    }
 }
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView()
+        HeaderView(numberOfDaysPassed: 256)
     }
 }
