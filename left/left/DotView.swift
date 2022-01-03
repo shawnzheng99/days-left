@@ -9,13 +9,13 @@ import SwiftUI
 
 struct DotView: View {
     var isBlinking = false
-    
+    let dotDiameter: CGFloat = 5.0
     @State private var scale: CGFloat = 0.0
 
     var body: some View {
         if isBlinking {
             Circle()
-                .frame(width: 15.0, height: 15.0)
+                .frame(width: dotDiameter, height: dotDiameter)
                 .foregroundColor(Color(hue: 0.471, saturation: 1.0, brightness: 1.0, opacity: 0.453))
                 .scaleEffect(scale)
                 .animation(
@@ -27,7 +27,7 @@ struct DotView: View {
                 }
         } else {
             Circle()
-                .frame(width: 15.0, height: 15.0)
+                .frame(width: dotDiameter, height: dotDiameter)
                 .foregroundColor(Color(hue: 0.471, saturation: 1.0, brightness: 1.0, opacity: 0.453))
         }
         

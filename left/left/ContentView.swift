@@ -14,15 +14,10 @@ struct ContentView: View {
             Spacer()
             VStack {
                 HeaderView(numberOfDaysPassed: calculateDaysPassedThisYear())
-                ForEach((0...1), id: \.self) { outterIdx in
-                    HStack {
-                        ForEach((0...16), id: \.self) { innerIdx in
-                            DotView(isBlinking: innerIdx == 16 && outterIdx == 1)
-                        }
-                    }
-                }.frame(width: 275.0)
-                
-            }.frame(width: 275.0)
+                GridDotView()
+            }
+            .padding(.horizontal, 60)
+            .frame(maxHeight: 320)
             Spacer()
         }
     }
