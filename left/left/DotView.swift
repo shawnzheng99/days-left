@@ -16,7 +16,7 @@ struct DotView: View {
         if isBlinking {
             Circle()
                 .frame(width: dotDiameter, height: dotDiameter)
-                .foregroundColor(Color(hue: 0.471, saturation: 1.0, brightness: 1.0, opacity: 0.453))
+                .foregroundColor(Color(hue: 0.479, saturation: 0.966, brightness: 0.953))
                 .scaleEffect(scale)
                 .animation(
                     .easeInOut(duration: 0.75)
@@ -30,7 +30,7 @@ struct DotView: View {
         } else {
             Circle()
                 .frame(width: dotDiameter, height: dotDiameter)
-                .foregroundColor(Color(hue: 0.471, saturation: 1.0, brightness: 1.0, opacity: 0.453))
+                .foregroundColor(Color(hue: 0.479, saturation: 0.966, brightness: 0.953))
         }
         
     }

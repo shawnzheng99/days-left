@@ -18,7 +18,7 @@ public func calculateDaysPassedThisYear() -> Int {
     let date1 = fmt.date(from: "\(currentYear)-01-01T00:00:01\(getTZSign)0\(getTZHours)00")!
     
     let diffs = Calendar.current.dateComponents([.day], from: date1, to: Date.now)
-    return (diffs.day! + 1)
-//    return 365
+//    return (diffs.day! + 1)
+    return 365
 
 }
